@@ -1,3 +1,12 @@
+
+
+# reduce --> Used for getting sum of elements in a list
+# filter --> Used to apply the conditions
+# map --> manipulate every element in the list
+
+
+print(list(filter(lambda num : num%2 == 0, [1,2,3,4,5])))
+
 print( list(map( lambda num: num*num, [1, 2, 3, 4, 5]))) # -- shortcut to below code logic
 
 # numbers = [1, 2, 3, 4, 5]
